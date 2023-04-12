@@ -60,6 +60,22 @@ main
     outline: 1px solid pink;
 }
 
+.hash-button {
+    outline: 1px solid rebeccapurple;        
+}
+
+.required-time {
+    outline: 1px solid red;
+}
+
+.delimeter {
+    outline: 1px solid green;
+}
+
+.appeal {
+    outline: 1px solid tomato;
+}
+
 .actions-list {
     outline: 1px solid khaki;
 }

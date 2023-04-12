@@ -100,7 +100,36 @@ body {
     }
     
     .hashtags {
+        display: grid;
+        grid-template-columns: auto 18px 12px 110px;
+        column-gap: 8px;
+        box-sizing: border-box;
+    }
 
+    .hash-button {
+        display: block;
+        height: 30px;
+        margin: 0;
+        padding: 6px 16px;
+        align-items: center;
+        background: linear-gradient(0deg, rgba(8, 30, 52, 0.12), rgba(8, 30, 52, 0.12)), #FFFBFE;
+        border-radius: 100px;  
+        box-sizing: border-box;  
+    }
+
+    .required-time {
+        display: block;
+        box-sizing: border-box;
+    }
+
+    .delimeter {
+        display: block;
+        box-sizing: border-box;
+    }
+
+    .appeal {
+        display: block;
+        box-sizing: border-box;
     }
 
     .actions-list {
@@ -112,6 +141,7 @@ body {
         width: 100px;
         height: 24px;
         list-style-type: none;
+        align-self: flex-end;
     }
 
     .actions-item {
