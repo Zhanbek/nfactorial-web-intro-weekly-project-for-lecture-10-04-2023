@@ -1,0 +1,53 @@
+
+body {
+    outline: 2px solid black;     
+}
+
+.index-page {
+    outline: 1px solid pink;     
+}
+
+/*
+header
+*/
+
+.index-header {
+    outline: 1px solid red;     
+
+}
+
+.medium-alike {
+    outline: 1px solid blue;     
+}
+
+/*
+main
+*/
+
+.index-main {
+    outline: 1px solid black; 
+}
+
+.index-main-header {
+    outline: 1px solid palegreen; 
+}
+
+.index-main-header-text {
+    outline: 1px solid palevioletred; 
+}
+
+.news-list {
+    outline: 3px dotted rgb(112, 216, 162); 
+}
+
+.news-item {
+    outline: 1px solid rgb(124, 112, 216); 
+}
+
+/*
+footer
+*/
+
+.index-footer {
+    outline: 1px solid black; 
+}
