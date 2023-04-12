@@ -48,6 +48,22 @@ main
     outline: 1px solid red;
 }
 
+.article-main-part {
+    outline: 1px solid orange;
+}
+
+.article-additional-info {
+    outline: 1px solid blue;
+}
+
+.hashtags {
+    outline: 1px solid pink;
+}
+
+.actions-list {
+    outline: 1px solid khaki;
+}
+
 /*
 footer
 */

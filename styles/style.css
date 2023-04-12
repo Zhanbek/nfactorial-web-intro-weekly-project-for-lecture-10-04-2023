@@ -85,6 +85,40 @@ body {
     .article {
         margin: 0;
         margin-bottom: 36px;
+        padding: 0;
+    }
+
+    .article-main-part {
+        margin: 0;
+        margin-bottom: 70px;
+    }
+
+    .article-additional-info {
+        display: flex;
+        justify-content: space-between;
+        height: 30px;
+    }
+    
+    .hashtags {
+
+    }
+
+    .actions-list {
+        display: grid;
+        grid-template-columns: repeat(3, 24px);
+        gap: 14px;        
+        margin: 0;
+        padding: 0;
+        width: 100px;
+        height: 24px;
+        list-style-type: none;
+    }
+
+    .actions-item {
+        width: 24px;
+        height: 24px;
+        background-color: #E1E0E6;
+        background-image: url("../images/icons/article-action.svg");
     }
 
     .news-picture {
