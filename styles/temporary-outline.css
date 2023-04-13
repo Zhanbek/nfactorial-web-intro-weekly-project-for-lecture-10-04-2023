@@ -56,6 +56,10 @@ main
     outline: 1px solid olive;
 }
 
+.article-content {
+    outline: 1px solid lightpink;
+}
+
 .author-name {
     outline: 1px solid gray;
 }
