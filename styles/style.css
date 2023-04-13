@@ -93,6 +93,43 @@ body {
         margin-bottom: 70px;
     }
 
+    .article-info {
+        display: grid;
+        grid-template-columns: 24px auto 12px auto 12px auto;
+        gap: 4px;
+        min-width: 285px;
+        height: 24px;
+        
+    }
+
+    .avatar {
+
+    }
+
+    .author-name {
+
+    }
+
+    .topic-name {
+
+    }
+
+    .publish-date {
+        
+    }
+
+    .in {
+        width: 12px;
+        height: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+        opacity: 0.5;
+    }
+
     .article-additional-info {
         display: flex;
         justify-content: space-between;
