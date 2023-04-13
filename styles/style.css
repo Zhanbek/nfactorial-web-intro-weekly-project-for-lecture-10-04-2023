@@ -138,14 +138,33 @@ body {
 
     .delimeter {
         display: block;
+        width: 12px;
+        height: 18px;
         box-sizing: border-box;
-        background-image: url("../images/icons/delimeter.svg");
-        background-repeat: no-repeat;
+        align-self: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;        
+        text-align: center;
+        color: #000000;
     }
 
     .appeal {
         display: block;
         box-sizing: border-box;
+        width: 110px;
+        height: 18px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;        
+        opacity: 0.5;
+        align-self: center;        
     }
 
     .actions-list {
