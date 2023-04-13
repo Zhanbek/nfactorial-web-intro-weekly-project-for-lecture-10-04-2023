@@ -101,13 +101,16 @@ body {
     
     .hashtags {
         display: grid;
-        grid-template-columns: auto 18px 12px 110px;
+        grid-template-columns: auto 77px 12px 110px;
         column-gap: 8px;
         box-sizing: border-box;
+        min-width: 330px;
+        height: 30px;
     }
 
     .hash-button {
-        display: block;
+        display: block;        
+        min-width: 107px;
         height: 30px;
         margin: 0;
         padding: 6px 16px;
@@ -115,16 +118,29 @@ body {
         background: linear-gradient(0deg, rgba(8, 30, 52, 0.12), rgba(8, 30, 52, 0.12)), #FFFBFE;
         border-radius: 100px;  
         box-sizing: border-box;  
+        text-align: center;
     }
 
     .required-time {
         display: block;
         box-sizing: border-box;
+        width: 77px;
+        height: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;                
+        color: #000000;        
+        opacity: 0.5;
+        align-self: center;
     }
 
     .delimeter {
         display: block;
         box-sizing: border-box;
+        background-image: url("../images/icons/delimeter.svg");
+        background-repeat: no-repeat;
     }
 
     .appeal {
@@ -149,6 +165,7 @@ body {
         height: 24px;
         background-color: #E1E0E6;
         background-image: url("../images/icons/article-action.svg");
+        background-repeat: no-repeat;
     }
 
     .news-picture {
