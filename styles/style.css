@@ -95,31 +95,53 @@ body {
 
     .article-info {
         display: grid;
-        grid-template-columns: 24px auto 12px auto 12px auto;
+        grid-template-columns: 24px auto 12px auto 12px auto 1fr;
         gap: 4px;
-        min-width: 285px;
-        height: 24px;
-        
+        align-items: center;
+        width: 100%;
+        height: 24px;                
     }
 
-    .avatar {
-
+    .avatar {        
+        width: 24px;
+        height: 24px;                
     }
 
-    .author-name {
-
-    }
-
-    .topic-name {
-
-    }
-
-    .publish-date {
-        
+    .author-name {        
+        height: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;        
+        color: #000000;        
     }
 
     .in {
         width: 12px;
+        height: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+        opacity: 0.5;
+    }
+
+    .topic-name {
+        width: 87px;
+        height: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+    }
+
+    .publish-date {
+        width: 36px;
         height: 18px;
         font-family: 'Inter';
         font-style: normal;

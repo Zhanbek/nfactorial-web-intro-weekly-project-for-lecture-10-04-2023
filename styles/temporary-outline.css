@@ -53,27 +53,23 @@ main
 }
 
 .article-info {
-    
-}
-
-.avatar {
-
+    outline: 1px solid olive;
 }
 
 .author-name {
-
-}
-
-.topic-name {
-
-}
-
-.publish-date {
-    
+    outline: 1px solid gray;
 }
 
 .in {
+    outline: 1px solid lightseagreen;
+}
 
+.topic-name {
+    outline: 1px solid purple;
+}
+
+.publish-date {
+    outline: 1px solid aqua;    
 }
 
 .article-additional-info {
