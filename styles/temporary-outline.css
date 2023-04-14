@@ -112,11 +112,18 @@ footer
     outline: 1px solid black; 
 }
 
-
 .credits-container {
     outline: 1px solid blue;          
 }
 
 .credits {
     outline: 1px solid red;          
+}
+
+.copyright-container {
+    outline: 1px solid pink;    
+}
+
+.copyright {
+    outline: 1px solid green;      
 }
