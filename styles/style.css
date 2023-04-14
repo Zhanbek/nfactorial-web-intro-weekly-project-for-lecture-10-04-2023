@@ -301,8 +301,8 @@ body {
     .page-footer {
         height: 446px;
         margin: 0;         
-        padding: 316px 0 32px 512px;     
-        box-sizing: border-box;
+        padding: 316px 0 32px 512px;  
+        box-sizing: border-box;   
     }
 
     .credits-container {      
@@ -311,9 +311,10 @@ body {
         align-items: center;
         width: 608px;
         height: 38px;     
-        margin: 0;
+        margin: 0;        
         margin-bottom: 42px;
-        padding: 10px 12px;            
+        padding: 10px 12px;   
+        box-sizing: border-box;         
     }
 
     .credits {
@@ -328,6 +329,7 @@ body {
         opacity: 0.5;       
         margin: 0;
         padding: 0; 
+        box-sizing: border-box;
     }
 
     .copyright-container {
@@ -338,6 +340,7 @@ body {
         height: 38px;        
         margin: 0;
         padding: 10px 12px;    
+        box-sizing: border-box;
     }
 
     .copyright {
