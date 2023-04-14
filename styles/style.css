@@ -299,9 +299,12 @@ body {
     */
     
     .page-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
         height: 446px;
         margin: 0;         
-        padding: 316px 0 32px 512px;  
+        padding: 316px 0 0 512px;  
         box-sizing: border-box;   
     }
 
@@ -339,8 +342,9 @@ body {
         width: 272px;
         height: 38px;        
         margin: 0;
+        margin-left: 848px;
         padding: 10px 12px;    
-        box-sizing: border-box;
+        /* box-sizing: border-box; */
     }
 
     .copyright {
@@ -353,7 +357,9 @@ body {
         line-height: 18px;        
         color: #081E34;        
         margin: 0;
+        margin-bottom: 32px;
         padding: 0; 
+        box-sizing: border-box;
     }
 }
 
