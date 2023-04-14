@@ -108,6 +108,15 @@ main
 footer
 */
 
-.index-footer {
+.page-footer {
     outline: 1px solid black; 
+}
+
+
+.credits-container {
+    outline: 1px solid blue;          
+}
+
+.credits {
+    outline: 1px solid red;          
 }

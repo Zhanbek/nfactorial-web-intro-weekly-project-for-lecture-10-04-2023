@@ -74,7 +74,7 @@ body {
     .news-list {
         box-sizing: border-box;
         list-style-type: none;
-        height: 1152px;        
+        /* height: 1152px;         */
         margin: 0;
         padding: 0;
     }
@@ -288,8 +288,29 @@ body {
     footer
     */
     
-    .index-footer {
-    
+    .page-footer {
+        height: 446px;
+        margin: 0; 
+        padding: 0;
+    }
+
+    .credits-container {
+        width: 608px;
+        height: 38px;     
+        margin: 316px 0 102px 512px;           
+    }
+
+    .credits {
+        height: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;        
+        color: #081E34;        
+        opacity: 0.5;    
+        margin: 0;
+        padding: 10px 12px;  
     }
 }
 
