@@ -51,6 +51,11 @@ body {
     /*
     main
     */
+
+    .index-main {
+        margin: 0;
+        padding: 0;
+    }
     
     .index-main-header {
         display: flex;
