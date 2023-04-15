@@ -343,21 +343,19 @@ body {
         height: 38px;        
         margin: 0;
         margin-left: 848px;
+        margin-bottom: 32px;
         padding: 10px 12px;    
-        /* box-sizing: border-box; */
+        box-sizing: border-box;
+
     }
 
     .copyright {
+        display: block;
         width: 248px;
         height: 18px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 18px;        
-        color: #081E34;        
+        background-image: url("../images/icons/copyright.svg");
+        background-repeat: no-repeat;
         margin: 0;
-        margin-bottom: 32px;
         padding: 0; 
         box-sizing: border-box;
     }
