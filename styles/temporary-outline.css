@@ -150,3 +150,31 @@ body {
 .article-content {
     outline: 1px solid purple;  
 }
+
+.article-info-top {
+    outline: 1px solid lawngreen; 
+}
+
+.article-info-top-left-panel {
+    outline: 1px solid black; 
+}
+
+.article-info-top-right-panel {
+    outline: 1px solid hotpink; 
+}
+
+.article-header-container {
+    outline: 1px solid red; 
+}
+
+.article-text  {
+    outline: 1px solid black; 
+}
+
+.article-subheader-container {
+    outline: 1px solid teal; 
+}
+
+.article-info-bottom {
+
+}

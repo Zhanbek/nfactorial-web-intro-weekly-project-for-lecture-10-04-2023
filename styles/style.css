@@ -409,7 +409,54 @@ body {
     }
 
     .article-content {
+        margin: 0;
+        padding: 0;
+    }
+
+    .article-info-top {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+
+    .article-info-top-left-panel {        
+        display: flex;
+        width: 323px;
+        height: 64px;
+        margin: 0;
+        padding: 0;        
+    }
+
+    .article-info-top-right-panel {
+        display: flex;
+        width: 100px;
+        height: 24px;        
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .article-header-container {
 
     }
+
+    .article-image {
+
+    }
+
+    .article-text  {
+
+    }
+
+
+    .article-subheader-container {
+
+    }
+
+    .article-info-bottom {
+
+    }
+
 }
 
