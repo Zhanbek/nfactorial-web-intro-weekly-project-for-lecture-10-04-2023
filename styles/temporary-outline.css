@@ -167,12 +167,12 @@ body {
     outline: 1px solid red; 
 }
 
-.article-text  {
-    outline: 1px solid black; 
-}
-
 .article-subheader-container {
     outline: 1px solid teal; 
+}
+
+.article-text  {
+    outline: 1px solid black; 
 }
 
 .article-info-bottom {

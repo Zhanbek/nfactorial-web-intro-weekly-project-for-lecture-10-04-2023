@@ -421,7 +421,9 @@ body {
     }
 
     .article-info-top-left-panel {        
-        display: flex;
+        display: grid;
+        grid-template-columns: 64px 243px;
+        column-gap: 16px;
         width: 323px;
         height: 64px;
         margin: 0;
@@ -441,16 +443,19 @@ body {
 
     }
 
-    .article-image {
-
+    .article-image {     
+        display: block;   
+        font-display: block;
+        width: 1120px;
+        height: 480px;
+        border-radius: 4px;                
     }
-
-    .article-text  {
-
-    }
-
 
     .article-subheader-container {
+
+    }
+
+    .article-text {
 
     }
 
