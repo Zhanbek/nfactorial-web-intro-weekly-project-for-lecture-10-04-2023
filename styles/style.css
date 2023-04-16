@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("SFPRODISPLAYREGULAR.OTF") format("otf");       
+    font-weight: 400;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -405,7 +412,7 @@ body {
     
     .article-container {
         margin: 0;
-        padding: 96px 39px;
+        padding: 0;
     }
 
     .article-content {
@@ -440,14 +447,40 @@ body {
 
 
     .article-header-container {
+        margin: 0;
+        margin-bottom: 70px;
+        padding: 0;
+    }
 
+    .main-article-header {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 38px;        
+        color: #000000;        
+        margin: 0;
+        padding: 0;
+        margin-bottom: 24px;
+    }
+
+    .additional-article-header {        
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color: #000000;
+        margin: 0;
+        padding: 0;
     }
 
     .article-image {     
         display: block;   
         font-display: block;
-        width: 1120px;
-        height: 480px;
+        /* width: 1120px;
+        height: 480px; */
+        width: 100%;
         border-radius: 4px;                
     }
 
