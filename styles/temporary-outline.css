@@ -146,3 +146,7 @@ body {
 .article-container {
     outline: 1px solid blue;   
 }
+
+.article-content {
+    outline: 1px solid purple;  
+}

@@ -402,7 +402,13 @@ body {
         width: 24px;
         height: 24px;    
     }
+    
     .article-container {
+        margin: 0;
+        padding: 96px 39px;
+    }
+
+    .article-content {
 
     }
 }
