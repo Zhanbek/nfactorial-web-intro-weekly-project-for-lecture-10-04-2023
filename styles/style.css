@@ -373,21 +373,37 @@ body {
 
     /*
         main of the article page
-    */ 
-    .article-main {
+    */
+    .article-page {
+        margin: 0;
+        padding: 0;
+        padding-left: 160px;
+        padding-right: 160px;
+    }
 
+    .article-main {
+        margin: 0;
+        padding: 0;
     }
     
     .article-main-header {
-        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: flex-start;
+        height: 152px;
     }
 
     .link-to-main-page {        
-        text-decoration: none; 
+        text-decoration: none;         
     }
 
+    .link-to-main-page-img {
+        width: 24px;
+        height: 24px;    
+    }
     .article-container {
-        
+
     }
 }
 
