@@ -1,4 +1,4 @@
-let newsList = document.getElementById("news-list");
+let newsList = document.getElementById("news");
 
 console.log(newsList);
 
@@ -31,8 +31,8 @@ fetch(
                         <span class = "delimeter">·</span>    
                         <span class = "publish-date">${day} ${month}</span>
                     </div>    
-                    <a class = "article-topic">${item.title}</div>    
-                    <a class = "article-summary">${item.abstract}</div>
+                    <a class = "article-topic" href = "./article.html">${item.title}</a>    
+                    <a class = "article-summary" href = "./article.html">${item.abstract}</a>
                 </div>
                 <div class = "article-additional-info">
                     <div class = "hashtags">

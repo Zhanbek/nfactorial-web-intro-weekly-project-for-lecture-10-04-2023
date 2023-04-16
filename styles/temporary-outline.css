@@ -8,7 +8,7 @@ body {
 }
 
 /*
-header
+    header
 */
 
 .index-header {
@@ -21,7 +21,7 @@ header
 }
 
 /*
-main
+    main of the main page
 */
 
 .index-main {
@@ -105,7 +105,7 @@ main
 }
 
 /*
-footer
+    footer
 */
 
 .page-footer {
@@ -126,4 +126,23 @@ footer
 
 .copyright {
     outline: 1px solid green;      
+}
+
+/*
+    main of the article page
+*/ 
+.article-main {
+    outline: 1px solid black; 
+}
+
+.article-main-header {
+    outline: 1px solid palegreen; 
+}
+
+.link-to-main-page {
+    outline: 1px solid palevioletred;    
+}
+
+.article-container {
+    outline: 1px solid blue;   
 }
