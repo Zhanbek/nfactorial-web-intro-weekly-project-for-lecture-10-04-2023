@@ -11,7 +11,6 @@ fetch(
   .then(function (data) {
     data.results.splice(0, 3).forEach((item) => {
       console.log(item);
-      console.log(newsList.innerHTML);
       const createdDate = new Date(item.updated_date);
       const day = createdDate.getUTCDate();
       const month = createdDate.getMonth();
@@ -32,8 +31,8 @@ fetch(
                         <span class = "delimeter">·</span>    
                         <span class = "publish-date">${day} ${month}</span>
                     </div>    
-                    <div class = "article-topic">${item.title}</div>    
-                    <div  class = "article-summary">${item.abstract}</div>
+                    <a class = "article-topic">${item.title}</div>    
+                    <a class = "article-summary">${item.abstract}</div>
                 </div>
                 <div class = "article-additional-info">
                     <div class = "hashtags">

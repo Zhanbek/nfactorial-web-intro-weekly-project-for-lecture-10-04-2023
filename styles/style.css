@@ -130,6 +130,7 @@ body {
     }
 
     .article-topic {
+        display: block;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
@@ -142,6 +143,7 @@ body {
     }
 
     .article-summary {
+        display: block;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -149,7 +151,7 @@ body {
         line-height: 22px;        
         color: #000000;  
         margin: 0;
-        padding: 0;              
+        padding: 0;             
     }   
         
     .avatar {        
