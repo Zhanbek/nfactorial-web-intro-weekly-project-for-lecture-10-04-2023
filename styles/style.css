@@ -511,6 +511,8 @@ body {
     }
 
     .article-info-bottom {
+        display: flex;
+        justify-content: space-between;
         width: 100%;
         height: 24px;
     }
@@ -636,6 +638,28 @@ body {
         width: 62px;
         height: 24px;
     }
-    
+
+    .article-empty-container {
+        width: 24px;
+        height: 24px;        
+        opacity: 0;                
+    }
+
+    .article-bookmark-image-container {
+        width: 24px;
+        height: 24px;
+    }
+
+    .article-bookmark-image {
+        display: block;
+        width: 18px;
+        height: 18px;
+        margin: 0;
+        padding: 3px;
+        background-image: url("../images/icons/Bookmark.svg");
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+
+    }
 }
 
