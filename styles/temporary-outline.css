@@ -216,4 +216,14 @@ body {
 }
 
 .article-info-bottom-right {
+    outline: 2px dashed black; 
 }
+
+.article-empty-container {
+    outline: 2px dashed hotpink; 
+}
+
+.article-bookmark-image-container {
+    outline: 2px dashed blue; 
+}
+

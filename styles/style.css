@@ -648,6 +648,8 @@ body {
     .article-bookmark-image-container {
         width: 24px;
         height: 24px;
+        padding: 3px;
+        box-sizing: border-box;
     }
 
     .article-bookmark-image {
