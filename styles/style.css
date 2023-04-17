@@ -557,6 +557,8 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 25px;
+        height: 24px;               
     }
 
     .article-likes-count {
@@ -602,6 +604,14 @@ body {
         background-image: url("../images/icons/Comments.svg");
         background-repeat: no-repeat;
         box-sizing: border-box;
+    }
+
+    .article-comments-count-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 16px;       
+        height: 24px;       
     }
 
     .article-comments-count {

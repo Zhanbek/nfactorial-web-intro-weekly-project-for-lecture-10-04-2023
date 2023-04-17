@@ -180,6 +180,7 @@ body {
 }
 
 .article-info-bottom-left {
+    outline: 1px solid indianred; 
 }
 
 .article-likes-container {
@@ -199,7 +200,19 @@ body {
 }
 
 .article-comments-container {
-    outline: 1px solid pink; 
+    outline: 1px dashed lawngreen;
+}
+
+.article-comments-image-container {
+    outline: 1px dashed blue 
+}
+
+.article-comments-count-container {
+    outline: 2px dashed black; 
+}
+
+.article-comments-count {
+    outline: 2px dashed green; 
 }
 
 .article-info-bottom-right {
