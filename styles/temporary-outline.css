@@ -176,5 +176,27 @@ body {
 }
 
 .article-info-bottom {
+    outline: 1px solid black; 
+}
 
+.article-info-bottom-left {
+}
+
+.article-likes-container {
+    outline: 3px dashed lawngreen; 
+}
+
+.article-likes-image-container {
+    outline: 1px solid blue; 
+
+}
+
+.article-likes-count {
+}
+
+.article-comments-container {
+    outline: 1px solid pink; 
+}
+
+.article-info-bottom-right {
 }

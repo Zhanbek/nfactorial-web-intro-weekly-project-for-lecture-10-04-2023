@@ -528,9 +528,42 @@ body {
         grid-template-columns: 24px 25px;
         gap: 4px;
         width: 53px;
+        box-sizing: border-box;
     }
 
-    .article-coments-container {
+    .article-likes-image-container {
+        margin: 0;
+        padding: 3px;
+        width: 24px;
+        height: 24px;
+        box-sizing: border-box;
+    }
+
+    .article-likes-image {
+        display: block;
+        width: 18px;
+        height: 18px;
+        margin: 0;
+        padding: 0;
+        background-image: url("../images/icons/Heart.svg");
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+    }
+
+    .article-likes-count {
+        display: block;
+        width: 25px;
+        height: 18px;        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #B7B7B7;
+        box-sizing: border-box;       
+    }
+
+    .article-comments-container {
 
     }
 
