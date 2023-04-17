@@ -520,7 +520,9 @@ body {
         grid-template-columns: 53px 44px;
         column-gap: 14px;
         width: 111px;
-        height: 24px;        
+        height: 24px;
+        margin: 0;
+        padding: 0;        
     }
 
     .article-likes-container {
@@ -528,7 +530,8 @@ body {
         grid-template-columns: 24px 25px;
         gap: 4px;
         width: 53px;
-        box-sizing: border-box;
+        margin: 0;
+        padding: 0;        
     }
 
     .article-likes-image-container {
@@ -550,6 +553,12 @@ body {
         box-sizing: border-box;
     }
 
+    .article-likes-count-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .article-likes-count {
         display: block;
         width: 25px;
@@ -560,12 +569,55 @@ body {
         font-size: 14px;
         line-height: 18px;
         color: #B7B7B7;
-        box-sizing: border-box;       
+        box-sizing: border-box;  
+        margin: 0;
+        padding: 0;           
     }
 
     .article-comments-container {
+        display: grid;
+        grid-template-columns: 24px 16px;
+        gap: 4px;        
+        width: 44px;
+        height: 24px;
+        margin: 0;
+        padding: 0;        
 
     }
+
+    .article-comments-image-container {
+        margin: 0;
+        padding: 3px;
+        width: 24px;
+        height: 24px;
+        box-sizing: border-box;
+    }
+
+    .article-comments-image {
+        display: block;
+        width: 18px;
+        height: 18px;
+        margin: 0;
+        padding: 0;
+        background-image: url("../images/icons/Comments.svg");
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+    }
+
+    .article-comments-count {
+        display: block;
+        width: 16px;
+        height: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #B7B7B7;             
+        margin: 0;
+        padding: 0;
+    }
+
 
     .article-info-bottom-right {
         display: grid;
@@ -574,6 +626,6 @@ body {
         width: 62px;
         height: 24px;
     }
-
+    
 }
 

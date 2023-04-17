@@ -187,11 +187,15 @@ body {
 }
 
 .article-likes-image-container {
-    outline: 1px solid blue; 
+    outline: 2px dashed blue; 
+}
 
+.article-likes-count-container {
+    outline: 1px dashed orange; 
 }
 
 .article-likes-count {
+    outline: 2px dashed orchid; 
 }
 
 .article-comments-container {
