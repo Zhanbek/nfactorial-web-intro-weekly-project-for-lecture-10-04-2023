@@ -220,7 +220,7 @@ body {
 }
 
 .article-empty-container {
-    outline: 2px dashed hotpink; 
+    outline: 1px solid rebeccapurple; 
 }
 
 .article-bookmark-image-container {
