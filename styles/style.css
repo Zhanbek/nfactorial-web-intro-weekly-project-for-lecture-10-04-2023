@@ -52,7 +52,7 @@ body {
         font-style: normal;
         font-weight: 500;
         font-size: 18px;
-        line-height: 22px;        
+        line-height: 22px;
         text-transform: lowercase;
         color: #000000;
     }
@@ -221,7 +221,7 @@ body {
     
     .hashtags {
         display: grid;
-        grid-template-columns: auto 77px 12px 110px;
+        grid-template-columns: auto 77px 12px 1fr;
         column-gap: 8px;
         box-sizing: border-box;
         min-width: 330px;
@@ -273,8 +273,7 @@ body {
 
     .appeal {
         display: block;
-        box-sizing: border-box;
-        width: 110px;
+        box-sizing: border-box;        
         height: 18px;
         
         font-family: 'Inter';
@@ -424,18 +423,58 @@ body {
         display: flex;
         justify-content: space-between;
         margin: 0;
+        margin-bottom: 70px;
         padding: 0;
     }
 
     .article-info-top-left-panel {        
         display: grid;
-        grid-template-columns: 64px 243px;
+        grid-template-columns: 64px 1fr;
         column-gap: 16px;
-        width: 323px;
+        min-width: 323px;
+        width: 40%;
         height: 64px;
         margin: 0;
         padding: 0;        
     }
+
+    .author-avatar {
+        display: block;        
+        width: 64px;
+        height: 64px; 
+        margin: 0;
+        padding: 0;       
+    }
+
+    .article-info-container {
+        display: block;
+        margin: 6px 0 6px 0;
+        padding: 0px;        
+        height: 52px;        
+    }
+
+    .authors-name {        
+        height: 22px;        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+        margin: 0;
+        margin-bottom: 12px;
+        padding: 0;  
+    }
+
+    .article-information {
+        display: grid;
+        grid-template-columns: auto 12px 77px 12px 90px;            
+        column-gap: 4px;                
+        padding: 0px;
+        height: 18px;
+    }
+
+
 
     .article-info-top-right-panel {
         display: flex;

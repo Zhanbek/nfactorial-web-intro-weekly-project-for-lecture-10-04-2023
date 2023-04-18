@@ -159,6 +159,18 @@ body {
     outline: 1px solid black; 
 }
 
+.article-info-container {
+    outline: 1px solid blue;
+} 
+
+.authors-name {
+    outline: 1px solid green;
+}
+
+.article-information {
+    outline: 1px solid pink;
+}
+
 .article-info-top-right-panel {
     outline: 1px solid hotpink; 
 }
