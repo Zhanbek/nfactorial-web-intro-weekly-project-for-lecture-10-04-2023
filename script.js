@@ -1,3 +1,46 @@
+function getMonthByNumber(num) {
+  let result = "";
+  switch (num) {
+    case 0:
+      result = "January";
+      break;
+    case 1:
+      result = "February";
+      break;
+    case 2:
+      result = "March";
+      break;
+    case 3:
+      result = "April";
+      break;
+    case 4:
+      result = "May";
+      break;
+    case 5:
+      result = "June";
+      break;
+    case 6:
+      result = "July";
+      break;
+    case 7:
+      result = "August";
+      break;
+    case 8:
+      result = "September";
+      break;
+    case 9:
+      result = "October";
+      break;
+    case 10:
+      result = "November";
+      break;
+    case 11:
+      result = "December";
+      break;
+  }
+  return result;
+}
+
 let newsList = document.getElementById("news");
 
 console.log(newsList);
@@ -13,7 +56,7 @@ fetch(
       console.log(item);
       const createdDate = new Date(item.updated_date);
       const day = createdDate.getUTCDate();
-      const month = createdDate.getMonth();
+      const month =  getMonthByNumber(createdDate.getUTCMonth());
       console.log(createdDate);
       console.log(day);
 
