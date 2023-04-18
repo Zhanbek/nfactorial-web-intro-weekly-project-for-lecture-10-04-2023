@@ -474,16 +474,57 @@ body {
         height: 18px;
     }
 
-
-
     .article-info-top-right-panel {
         display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
         width: 100px;
         height: 24px;        
         margin: 0;
         padding: 0;
     }
 
+    .social-network-list {
+        display: grid;        
+        grid-template-columns: repeat(3, 24px);
+        column-gap: 14px;
+        width: 100px;
+        height: 24px;        
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .social-network-item {
+        width: 24px;
+        height: 24px;
+        margin: 0;
+        padding: 3px;
+        box-sizing: border-box;
+    }
+
+    .social-network-image {
+        display: block;
+        width: 18px;
+        height: 18px;    
+        box-sizing: border-box;
+    }
+
+    .linkedin {
+        background-image: url("../images/icons/social-items/LinkedIn.svg");
+        background-repeat: no-repeat;
+    }
+
+    .facebook {
+        background-image: url("../images/icons/social-items/Facebook.svg");
+        background-repeat: no-repeat;
+    }   
+    
+    .twitter {
+        background-image: url("../images/icons/social-items/Twitter.svg");
+        background-repeat: no-repeat;
+    }
 
     .article-header-container {
         margin: 0;

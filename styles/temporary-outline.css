@@ -175,6 +175,14 @@ body {
     outline: 1px solid hotpink; 
 }
 
+.social-network-list {
+    outline: 1px solid indianred; 
+}
+
+.social-network-item {
+    outline: 1px solid black; 
+}
+
 .article-header-container {
     outline: 1px solid red; 
 }
