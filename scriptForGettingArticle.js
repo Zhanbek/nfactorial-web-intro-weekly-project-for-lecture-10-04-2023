@@ -148,10 +148,10 @@ function getMonthByNumber(num) {
       </div>
       <div class = "article-header-container">                        
           <p class = "main-article-header">
-              7 Practical CSS Tips
+              ${article.title}
           </p>
           <p class = "additional-article-header">
-              How product designers can break from the status quo and help our planet
+              ${article.abstract}
           </p>                    
           
       </div>
