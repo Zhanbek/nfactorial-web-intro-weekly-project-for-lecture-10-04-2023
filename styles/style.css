@@ -471,7 +471,7 @@ body {
 
     .article-information {
         display: grid;
-        grid-template-columns: 50px 12px 77px 12px 90px;            
+        grid-template-columns: 60px 12px 77px 12px 90px;            
         column-gap: 4px;                
         padding: 0px;
         height: 18px;
