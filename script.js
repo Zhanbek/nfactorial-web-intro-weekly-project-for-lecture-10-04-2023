@@ -57,6 +57,9 @@ fetch(
       const createdDate = new Date(item.updated_date);
       const day = createdDate.getUTCDate();
       const month =  getMonthByNumber(createdDate.getUTCMonth());
+      const articleId = item.short_url.split('/').pop();
+      console.log(item.short_url);
+      console.log(articleId);
       console.log(createdDate);
       console.log(day);
 
@@ -74,8 +77,8 @@ fetch(
                         <span class = "delimeter">·</span>    
                         <span class = "publish-date">${day} ${month}</span>
                     </div>    
-                    <a class = "article-topic" href = "./article.html">${item.title}</a>    
-                    <a class = "article-summary" href = "./article.html">${item.abstract}</a>
+                    <a class = "article-topic" href = "./article.html?id=${articleId}">${item.title}</a>    
+                    <a class = "article-summary" href = "./article.html?id=${articleId}">${item.abstract}</a>
                 </div>
                 <div class = "article-additional-info">
                     <div class = "hashtags">
