@@ -52,7 +52,7 @@ fetch(
     return promise.json();
   })
   .then(function (data) {
-    data.results.splice(0, 3).forEach((item) => {
+    data.results.splice(0, 10).forEach((item) => {
       console.log(item);
       const createdDate = new Date(item.updated_date);
       const day = createdDate.getUTCDate();
